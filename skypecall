@@ -30,7 +30,7 @@ if($token != 'TrefSWBsT5QGT6lXTDVXcOLe'){ #replace this with the token from your
 $user_agent = "IsitupForSlack/1.0 (https://github.com/mccreath/istiupforslack; mccreath@gmail.com)";
 # We're just taking the text exactly as it's typed by the user. If it's not a valid domain, isitup.org will respond with a `3`.
 # We want to get the JSON version back (you can also get plain text).
-$url_to_check = "http://isitup.org/".$text.".json";
+$url_to_check = "http://google.com";
 # Set up cURL 
 $ch = curl_init($url_to_check);
 # Set up options for cURL 
